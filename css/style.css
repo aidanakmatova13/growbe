@@ -121,3 +121,186 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.align-items-center{
+    align-items: center;
+}
+.section-title{
+    font-size: 45px;
+    line-height: 53px;
+}
+.section-info{
+    font-size: 16px;
+    line-height: 150%;
+    margin:20px 0 35px;
+}
+.about{
+    background: #FAFAFA url("../img/element.png") no-repeat center/cover;
+}
+.col-4{
+    width: 33.3333%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.features{
+    padding: 140px 0 125px;
+}
+.feature-box{
+    padding: 30px;
+}
+.feature-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-icon.red{
+    background: rgba(242, 88, 34, 0.25);
+}
+.feature-icon.green{
+    background: rgba(20, 146, 17, 0.28);
+}
+.feature-icon.yellow{
+    background: rgba(255, 205, 29, 0.24);
+}
+.features-caption{
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.features-content{
+    font-size: 15px;
+    line-height: 150%;
+    margin:17px 0 25px;
+}
+.read-more{
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+.services{
+    padding: 92px 0 100px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+.services-info{
+    margin: 19px 0 54px;
+}
+.services-box{
+    background-color: #FFF;
+}
+.margin-img{
+    margin-top: 15px ;
+}
+.services-content{
+    margin:22px 30px 39px;
+    font-size: 15px;
+    line-height: 150%;
+}
+.btn.learn-more{
+    margin-bottom: 50px;
+}
+.what-we-do{
+    background-image: url("../img/dribbble_illustration_v3 1.png");
+    background-position: left -79px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:107px 0 14px ;
+}
+.what-we-do-row{
+    justify-content: flex-end;
+}
+.what-we-do-desc{
+    margin: 19px 0 79px;
+}
+.box-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 49px 0 31px;
+}
+.box-content{
+    margin-left: 29px;
+}
+.box-desc{
+    margin-top: 8px;
+}
+.wwd-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wwd-icon.red{
+    background: #FCD5C8;
+}
+.wwd-icon.green{
+    background: rgba(20, 146, 17, 0.28);
+}
+.wwd-icon.yellow{
+    background: rgba(255, 205, 29, 0.24);
+}
+.funfact{
+    padding: 100px 0 ;
+}
+.funfact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #EEEEEE;
+    padding: 43px 66px 42px 76px;
+}
+.funfact-box{
+    text-align: center;
+}
+.funfact-number{
+    font-size: 70px;
+    line-height: 150%;
+    color: #666666;
+    font-weight: bold;
+}
+.funfact-title{
+    font-size: 18px;
+    line-height: 150%;
+    color: #666666;
+}
+.mail-box{
+    position: relative;
+    padding: 138px 0;
+}
+.mail-box-img{
+    position: absolute;
+    top:-58px;
+    right:0;
+    z-index: -1;
+}
+.mail-box-title{
+    font-size: 45px;
+    line-height: 150%;
+}
+.mail-box-desc{
+    font-size: 16px;
+    line-height: 150%;
+    padding: 3px 0 55px;
+}
+input{
+    border: none;
+    padding: 16px 0 16px 20px;
+    width: 200px;
+}
+input.web-url{
+    background: #EEEEEE;
+    border-radius: 50px 0 0 50px;
+}
+input.email-address{
+    background: #EEEEEE;
+    border-radius: 0 50px 50px 0;
+    border-left: 2px solid #CCCCCC;
+}
+
+
+
+
